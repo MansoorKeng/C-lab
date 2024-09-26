@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main(){
     FILE *p;
-    int rollno = 22;
-    char name[50]= "Muizza";
+    int rollno = 31;
+    char name[50]= "Mansoor";
     
     p=fopen("first.txt", "w");
     if (p == NULL){
